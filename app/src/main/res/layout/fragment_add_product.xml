@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="com.rashminidhi.smartgrocery.AddProductFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText1"
+        android:hint="Enter Item"
+        android:paddingLeft="10dp"
+        android:layout_margin="5dp"
+        android:textSize="26sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/editText2"
+            android:paddingLeft="10dp"
+            android:hint="Enter Quantity"
+            android:textSize="26sp"/>
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/spinner">
+        </Spinner>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="26sp"
+        android:id="@+id/button1"
+        android:text="Add to Cart"/>
+
+</LinearLayout>
